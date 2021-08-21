@@ -12,8 +12,8 @@ const HashtagPanel: React.FC = () => {
       <Panel>
         <span className="title">Hashtags seguidas</span>
 
-        {tags.map((item) => (
-          <span className="tag">
+        {tags.map((item, index) => (
+          <span className="tag" key={index}>
             <HashtagIcon />
             {item}
           </span>

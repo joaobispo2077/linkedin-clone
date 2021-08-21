@@ -8,11 +8,11 @@ const ProfilePanel: React.FC = () => {
   return (
     <Panel>
       <Container>
-          <div className="profile-cover"></div>
+        <div className="profile-cover"></div>
         <img
           src="https://github.com/joaobispo2077.png"
           alt="Avatar"
-           className="profile-picture"
+          className="profile-picture"
         />
         <h1>João Bispo</h1>
         <h2>Full stack developer at Savelivez</h2>
