@@ -8,6 +8,10 @@ export default styled.div`
     #e7edf1 100%
   );
 
+  &.white {
+    background-image: linear-gradient(-90deg, #fff 0%, #e7edf1 50%, #fff 100%);
+  }
+
   background-size: 400% 400%;
 
   animation: shimmer 1.2s ease-in-out infinite;
